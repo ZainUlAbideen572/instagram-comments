@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram comments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="all comments bg-gray-200 w-3/4 px-4 py-4 flex space-x-4 rounded-lg">
+        <div id="cmnt-details">
+            <h1 class="px-4">First Comment</h1>
+            <button class="reply text-xs text-blue-400 px-6">Add Reply</button>
+            <div id='add-comment' class="flex flex-row py-1 pl-[3.75rem]  hidden rounded-lg">
+                <input type="text" class="px-1" placeholder="add comment" name="reply"/>
+                <button class="submit p-2 bg-blue-400 submit">submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
